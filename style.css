@@ -1,0 +1,195 @@
+/* ყველა ელემენტისთვის */
+* {
+    box-sizing: border-box;
+}
+
+/* მთელი გვერდი */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef5f0;
+    color: #26352d;
+    line-height: 1.7;
+}
+
+/* მთავარი ზედა ნაწილი */
+.hero {
+    background: linear-gradient(135deg, #2e7d5b, #5ba87a);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* ნავიგაცია */
+nav {
+    background-color: #1f4d3a;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a8e6c1;
+}
+
+/* მთავარი კონტენტი */
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/* ყველა სექცია */
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* სათაურები */
+h2 {
+    color: #26704d;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #a8d5ba;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #3b7d5a;
+    font-size: 21px;
+    margin-top: 25px;
+}
+
+/* ტექსტი */
+p {
+    font-size: 17px;
+}
+
+strong {
+    color: #24563e;
+}
+
+/* სიები */
+ul,
+ol {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* სტატიები */
+article {
+    background-color: #f3f9f5;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 5px solid #4d9b70;
+    border-radius: 8px;
+}
+
+/* ბმულები */
+a {
+    color: #26704d;
+}
+
+article a,
+address a {
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d06b35;
+}
+
+/* კონტაქტი */
+address {
+    font-style: normal;
+    background-color: #f3f9f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #1f4d3a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
+
+/* ტელეფონისთვის */
+@media (max-width: 700px) {
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero img {
+        width: 150px;
+        height: 150px;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
